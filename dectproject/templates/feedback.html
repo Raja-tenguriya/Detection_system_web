@@ -1,0 +1,49 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Feedback - AI Camera Tools</title>
+  <link rel="stylesheet" type="text/css" href="{% static 'css/main2.css' %}">
+  <script>
+    function showMessage() {
+      alert("Thanks for your feedback!");
+    }
+  </script>
+</head>
+<body>
+  <header>
+    <h1>Feedback</h1>
+    <nav>
+      <a href="{% url 'home' %}">Home</a>
+      <a href="{% url 'aboutus_pg' %}">About Us</a>
+      <a href="{% url 'product_pg' %}">Product</a>
+      <a href="{% url 'carrier_pg' %}">Career</a>
+      <a href="{% url 'notes_pg' %}">Notes</a>
+      <a href="{% url 'support_pg' %}">Support</a>
+    </nav>
+  </header>
+  
+  <main class="container">
+    <h2>We Value Your Feedback</h2>
+    <p>Let us know how we can improve our products and services to serve you better!</p>
+    <form onsubmit="showMessage(); return false;">
+      <label for="name">Your Name:</label><br />
+      <input type="text" id="name" name="name" required /><br /><br />
+
+      <label for="email">Your Email:</label><br />
+      <input type="email" id="email" name="email" required /><br /><br />
+
+      <label for="message">Message:</label><br />
+      <textarea id="message" name="message" rows="5" required></textarea><br /><br />
+
+      <button type="submit">Send Feedback</button>
+    </form>
+  </main>
+  
+  <footer>
+    <p>&copy;  i im raja tenguriya</p>
+  </footer>
+</body>
+</html>

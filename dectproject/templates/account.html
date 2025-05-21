@@ -1,0 +1,44 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>raja's account</title>
+  <link rel="stylesheet" type="text/css" href="{% static 'css/main2.css' %}">
+  <script>
+    function logout() {
+      alert("You have been logged out.");
+      window.location.href = "index.html";
+    }
+  </script>
+</head>
+<body>
+  <header>
+    <h1>My Account</h1>
+    <nav>
+        <a href="{% url 'home' %}">Home</a>
+        <a href="{% url 'aboutus_pg' %}">About Us</a>
+        <a href="{% url 'product_pg' %}">Product</a>
+        <a href="{% url 'carrier_pg' %}">Career</a>
+        <a href="{% url 'notes_pg' %}">Notes</a>
+        <a href="{% url 'support_pg' %}">Support</a>
+        <a href="{% url 'feedback_pg' %}">Feedback</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="account-card">
+      <h2>Welcome, raja tenguriya</h2>
+      <p><strong>Email:</strong> rajtenguriyap@gmail.com</p>
+      <p><strong>Member Since:</strong> January 2025</p>
+      <p><strong>Plan:</strong> Premium User</p>
+      <button class="btn" onclick="logout()">Logout</button>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy;  i im raja tenguriya</p>
+  </footer>
+</body>
+</html>

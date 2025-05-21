@@ -1,0 +1,39 @@
+{% load static %}
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Careers - Join Our Team</title>
+  <link rel="stylesheet" type="text/css" href="{% static 'css/main2.css' %}">
+</head>
+<body>
+  <header>
+    <h1>Career Opportunities</h1>
+    <nav>
+      <a href="{% url 'home' %}">Home</a>
+      <a href="{% url 'product_pg' %}">Product</a>
+    </nav>
+  </header>
+  <main class="container">
+    <p>We’re looking for passionate individuals to help us build smart, fun, and secure AI vision systems. Come shape the future with us!</p>
+
+    <section class="career-listings">
+      <div class="career-item">
+        <h3>Full Stack Developer</h3>
+        <p>Build scalable, fast, and modern web applications for our tools. React + Django experience preferred.</p>
+      </div>
+      <div class="career-item">
+        <h3>Computer Vision Engineer</h3>
+        <p>Design and improve our detection algorithms using OpenCV and deep learning frameworks.</p>
+      </div>
+      <div class="career-item">
+        <h3>Machine Learning Intern</h3>
+        <p>Gain hands-on experience with training, testing, and deploying ML models for vision tasks.</p>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <p>&copy;  i im raja tenguriya</p>
+  </footer>
+</body>
+</html>

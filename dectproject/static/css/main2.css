@@ -1,0 +1,238 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #fcb4b4;
+}
+  
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+  
+header h1 {
+    margin: 0;
+}
+  
+nav a {
+    color: rgb(174, 248, 174);
+    text-decoration: none;
+    margin: 0 20px;
+}
+  
+nav a:hover {
+    text-decoration: underline;
+}
+  
+.container {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #c0a6f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+  
+footer {
+    background-color: #333;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+  
+  /* Product Page Styles */
+.product-section {
+    padding: 20px;
+    text-align: center;
+}
+  
+.product-section h2 {
+    color: #333;
+}
+  
+.product-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+  
+.product-section ul li {
+    background-color: #e0e0e0;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+  
+.career-section {
+    padding: 20px;
+}
+  
+.career-section h2 {
+    color: #333;
+}
+  
+.career-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+  
+.career-section ul li {
+    background-color: #e0e0e0;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+  
+  /* Notes Page Styles */
+.notes-section {
+    padding: 20px;
+    text-align: center;
+}
+  
+.notes-section h2 {
+    color: #333;
+}
+  
+.notes-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+  
+.notes-section ul li {
+    background-color: #e0e0e0;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+  
+  /* Support Page Styles */
+.support-section {
+    padding: 20px;
+    text-align: center;
+}
+
+.support-section h2 {
+    color: #333;
+}
+  
+.support-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+  
+.support-section ul li {
+    background-color: #e0e0e0;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+  
+  /* Learning Page Styles */
+.learning-section {
+    padding: 20px;
+}
+  
+.learning-section h2 {
+    color: #333;
+}
+  
+.learning-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+  
+.learning-section ul li {
+    background-color: #e0e0e0;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+  
+  /* About Us Page Styles */
+h2 {
+    color: #333;
+    font-size: 1.8em;
+}
+  
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+  
+ul li {
+    background-color: #e0e0e0;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+  
+  /* Feedback Page Styles */
+form {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+  
+form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+  
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+  
+form button {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+  
+form button:hover {
+    background-color: #218838;
+}
+
+
+/* Account Page Specific */
+.account-card {
+    background-color: #fff;
+    padding: 40px;
+    max-width: 500px;
+    margin: 30px auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    text-align: center;
+}
+  
+.account-card h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+  
+.account-card p {
+    font-size: 1.1rem;
+    color: #555;
+    margin: 8px 0;
+}
+
+.btn {
+    font-size: large;
+    padding: 3px 15px;
+    border-radius: 10%;
+    background-color: #7aaa68;
+}

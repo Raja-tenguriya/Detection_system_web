@@ -1,0 +1,39 @@
+{% load static %}
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Notes - Toolkit</title>
+  <link rel="stylesheet" type="text/css" href="{% static 'css/main2.css' %}">
+</head>
+<body>
+  <header>
+    <h1>Technical Notes</h1>
+    <nav>
+      <a href="{% url 'home' %}">Home</a>
+      <a href="{% url 'product_pg' %}">Products</a>
+      <a href="{% url 'carrier_pg' %}">carrier</a>
+      <a href="{% url 'support_pg' %}">Support & Learning</a>
+      <a href="{% url 'aboutus_pg' %}">About Us</a>
+      <a href="{% url 'feedback_pg' %}">feedback</a>
+    </nav>
+  </header>
+  <main class="container">
+    <div class="product-card">
+      <h2>Filter Selection Notes</h2>
+      <p>Details on implementing live filters using OpenCV with dynamic color manipulation options.</p>
+    </div>
+    <div class="product-card">
+      <h2>Emotion Detection Logic</h2>
+      <p>Explains the facial landmarking approach, CNN usage, and real-time prediction logic.</p>
+    </div>
+    <div class="product-card">
+      <h2>OCR Integration</h2>
+      <p>Notes on how to use Tesseract OCR with Python to extract text from live document captures.</p>
+    </div>
+  </main>
+  <footer>
+    <p>&copy;i im raja tenguriya</p>
+  </footer>
+</body>
+</html>

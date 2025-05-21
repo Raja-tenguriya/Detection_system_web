@@ -1,0 +1,47 @@
+{% load static %}
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Our Products page</title>
+  <link rel="stylesheet" type="text/css" href="{% static 'css/main2.css' %}">
+</head>
+<body>
+  <header>
+    <h1>Our Products</h1>
+    <nav>
+      <a href="{% url 'home' %}">Home</a>
+      <a href="{% url 'carrier_pg' %}">Career</a>
+    </nav>
+  </header>
+  <main class="container">
+    <div class="product-card">
+      <h2>Mask Detection</h2>
+      <p>Detects face masks in real-time using AI to ensure public safety.</p>
+    </div>
+    <div class="product-card">
+      <h2>Color Changer</h2>
+      <p>Applies beautiful live filters and artistic effects to your webcam feed.</p>
+    </div>
+    <div class="product-card">
+      <h2>Emotion Detection</h2>
+      <p>Recognizes emotional expressions using facial analysis.</p>
+    </div>
+    <div class="product-card">
+      <h2>Choose Filter Live Cam</h2>
+      <p>Pick and preview your favorite filters live on your camera feed.</p>
+    </div>
+    <div class="product-card">
+      <h2>Document Reader</h2>
+      <p>Extracts text from documents using OCR for fast reading and processing.</p>
+    </div>
+    <div class="product-card">
+      <h2>Face Swap</h2>
+      <p>Have fun with friends by swapping faces live in your video stream.</p>
+    </div>
+  </main>
+  <footer>
+    <p>&copy;  i im raja tenguriya</p>
+  </footer>
+</body>
+</html>

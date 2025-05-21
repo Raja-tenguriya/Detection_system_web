@@ -1,0 +1,72 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>detection system</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/main.css' %}">
+</head>
+<body>
+    <header>
+        <div class="logo">i am raja tenguriya project <span>system</span></div>
+        <nav>
+            <ul>
+                <li><a href="{% url 'product_pg' %}">Products</a></li>
+                <li><a href="{% url 'carrier_pg' %}">carrier</a></li>
+                <li><a href="{% url 'notes_pg' %}">notes</a></li>
+                <li><a href="{% url 'support_pg' %}">Support & Learning</a></li>
+                <li><a href="{% url 'aboutus_pg' %}">About Us</a></li>
+                <li><a href="{% url 'feedback_pg' %}">feedback</a></li>
+            </ul>
+        </nav>
+        <div class="account"><a href="{% url 'accounts_pg' %}">Your Account</a></div>
+    </header>
+    
+    <section class="hero">
+        <h1>i m raja tenguriya</h1>
+        <p>there is a platform where you can perform multiple tasks</p>
+    </section>
+
+    <section class="products">
+        <div class="product">
+            <h2>Mask Detection System</h2>
+            <p>Detects if a person is wearing a face mask or not.</p>
+                 <a href="{% url 'run_mask' %}" class="btn">check</a>
+        </div>
+        <div class="product">
+            <h2>change color</h2>
+            <p>upload your image and change image color</p>
+            <a href="{% url 'change_col' %}" class="btn">click here</a>
+        </div>
+        <div class="product">
+            <h2>new added</h2>
+            <p>added soon </p>
+            <a href="#" class="btn">click here</a>
+        </div>
+        <div class="product">
+            <h3>new added</h3>
+            <p>added soon</p>
+            <a href="#" class="btn">click here</a>
+        </div>
+        <div class="product">
+            <h3>choose filter</h3>
+            <p>choose your fileter like blur, gray etc</p>
+            <a href="{% url 'choose_filter' %}" class="btn">click here</a>
+        </div>
+        <div class="product">
+            <h3>new one</h3>
+            <p>added soon</p>
+            <a href="#" class="btn">click here</a>
+        </div>
+    </section>
+    <script src="{% static 'js/script.js' %}"></script>
+</body>
+
+</html>
+
+
+
+
+
+
